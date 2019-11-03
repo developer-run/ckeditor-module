@@ -12,7 +12,7 @@
     }
   ],
   "require": {
-    "devrun/cms-module": "0.8.*"
+    "devrun/cms-module": "v0.8.*"
   },
   "repositories": [
     {
@@ -27,7 +27,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "4.9-dev"
+      "dev-master": "4-dev"
     },
     "devrun": {
       "configuration": {
