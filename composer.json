@@ -3,7 +3,6 @@
   "description": "DevRun wysiwig editor module",
   "keywords": ["cms", "devrun", "module", "editor"],
   "minimum-stability": "dev",
-  "version": "4.9.2",
   "homepage": "http://devrun.cz",
   "license": "proprietary",
   "authors": [
@@ -18,6 +17,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/developer-run/cms-module"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/developer-run/framework"
     }
   ],
   "autoload": {
