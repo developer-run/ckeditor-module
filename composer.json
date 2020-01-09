@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "devrun/cms-module": "v0.8.*"
+    "devrun/framework": "v0.8.*"
   },
   "repositories": [
     {

@@ -1,5 +1,6 @@
 ### Composer template
 /vendor/
+composer.lock
 
 ### Editor
 .idea
