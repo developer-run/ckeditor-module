@@ -2,7 +2,7 @@
   "name": "devrun-article-module",
   "version": "0.1.0",
   "dependencies": {
-    "ckeditor": "^4.6.2"
+    "ckeditor": "^4.14.0"
   },
   "authors": [
     "Pavel Paulík <pavel.paulik@support.etnetera.cz>"

@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "devrun/framework": "v0.8.*"
+    "devrun/framework": "v0.9.*"
   },
   "repositories": [
     {
@@ -30,7 +30,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "4-dev"
+      "dev-master": "5-dev"
     },
     "devrun": {
       "configuration": {
