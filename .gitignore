@@ -1,6 +1,11 @@
 ### Composer template
-/vendor/
+/node_modules/
+/packages
+/scripts
+/sample
+/www
 composer.lock
 
 ### Editor
 .idea
+package-lock.json

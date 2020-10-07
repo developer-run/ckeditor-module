@@ -1,0 +1,128 @@
+{
+  "_from": "@ckeditor/ckeditor5-inspector",
+  "_id": "@ckeditor/ckeditor5-inspector@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-o446mgCwat0NLXZdE7w+h/Vu6Slh2e4I050Y3jN/ZF6qmh/MKlwknpUF1jBYYfVWCqlcn9JjpK1f9CnBIyB/KA==",
+  "_location": "/@ckeditor/ckeditor5-inspector",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@ckeditor/ckeditor5-inspector",
+    "name": "@ckeditor/ckeditor5-inspector",
+    "escapedName": "@ckeditor%2fckeditor5-inspector",
+    "scope": "@ckeditor",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ckeditor/ckeditor5-inspector/-/ckeditor5-inspector-2.0.0.tgz",
+  "_shasum": "378ef4ca5dbdf652b04b50ca9455b3f5b00aa899",
+  "_spec": "@ckeditor/ckeditor5-inspector",
+  "_where": "/var/www/html/devrun/devrun",
+  "author": {
+    "name": "CKSource",
+    "url": "http://cksource.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/ckeditor/ckeditor5-inspector/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "The official CKEditor 5 instance inspector.",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-react": "^7.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^18.0.0",
+    "@ckeditor/ckeditor5-build-decoupled-document": "^18.0.0",
+    "@ckeditor/ckeditor5-core": "^18.0.0",
+    "@ckeditor/ckeditor5-dev-env": "^17.1.0",
+    "@ckeditor/ckeditor5-paragraph": "^18.0.0",
+    "@ckeditor/ckeditor5-ui": "^18.0.0",
+    "@ckeditor/ckeditor5-utils": "^18.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "chai": "^4.1.2",
+    "chai-enzyme": "^1.0.0-beta.1",
+    "css-loader": "^2.1.0",
+    "cssnano": "^4.1.10",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.0",
+    "eslint": "^5.14.1",
+    "eslint-config-ckeditor5": "^2.0.0",
+    "eslint-plugin-react": "^7.12.4",
+    "husky": "^1.3.1",
+    "istanbul-instrumenter-loader": "^3.0.1",
+    "karma": "^4.0.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-coveralls": "^2.1.0",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.4",
+    "karma-sinon": "^1.0.5",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^3.0.0",
+    "lint-staged": "^8.1.5",
+    "mocha": "^5.2.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-nesting": "^7.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-redux": "^7.2.0",
+    "react-rnd": "^10.0.0",
+    "redux": "^4.0.5",
+    "sinon": "^7.2.3",
+    "style-loader": "^0.23.1",
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.7.1"
+  },
+  "eslintIgnore": [
+    "build/**",
+    "coverage/**"
+  ],
+  "files": [
+    "build"
+  ],
+  "homepage": "https://github.com/ckeditor/ckeditor5-inspector",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "license": "GPL-2.0-or-later",
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --quiet"
+    ]
+  },
+  "main": "build/inspector.js",
+  "name": "@ckeditor/ckeditor5-inspector",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckeditor/ckeditor5-inspector.git"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "changelog": "node ./scripts/changelog.js",
+    "dev": "webpack --mode development --watch",
+    "preversion": "npm run build",
+    "release:bump-version": "node ./scripts/bump-version.js",
+    "release:publish": "node ./scripts/publish.js",
+    "test": "node ./scripts/test.js"
+  },
+  "version": "2.0.0"
+}
