@@ -36,11 +36,15 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave';
 import TranslateBox from './plugins/translate-box/src/translate-box';
+import Placeholder from './plugins/placeholder/src/placeholder';
+import Control from './plugins/control/src/control';
+import RowGrid from './plugins/row-grid/src/row-grid';
 import CKEditorInspector from '@ckeditor/ckeditor5-inspector';
 
 class ClassicEditor extends ClassicEditorBase {}
 class InlineEditor extends InlineEditorBase {}
 class BalloonEditor extends BalloonEditorBase {}
+window.CKEditorInspector = CKEditorInspector;
 
 // Plugins to include in the build.
 const plugins = [
@@ -72,6 +76,9 @@ const plugins = [
 	Alignment,
 	Autosave,
 	TranslateBox,
+	Placeholder,
+	Control,
+	RowGrid,
 ];
 
 // Editor configuration.

@@ -1,0 +1,11 @@
+.ck-control {
+	background: #00fff0;
+	padding: 4px 2px;
+	outline-offset: -2px;
+	line-height: 1em;
+	margin: 0 1px;
+}
+
+.ck-control::selection {
+	display: none;
+}

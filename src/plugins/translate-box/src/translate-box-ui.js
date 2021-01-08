@@ -3,7 +3,6 @@ import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 
 export default class TranslateBoxUI extends Plugin {
 	init() {
-		console.log( 'SimpleBoxUI#init() got called' );
 
 		const editor = this.editor;
 		const t = editor.t;

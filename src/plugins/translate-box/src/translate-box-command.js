@@ -19,16 +19,16 @@ export default class InsertTranslateBoxCommand extends Command {
 }
 
 function createTranslateBox( writer ) {
-	const simpleBox = writer.createElement( 'translateBox' );
-	const simpleBoxTitle = writer.createElement( 'translateBoxTitle' );
-	const simpleBoxDescription = writer.createElement( 'translateBoxDescription' );
+	const translateBox = writer.createElement( 'translateBox' );
+	const translateBoxTitle = writer.createElement( 'translateBoxTitle' );
+	const translateBoxDescription = writer.createElement( 'translateBoxDescription' );
 
-	writer.append( simpleBoxTitle, simpleBox );
-	writer.append( simpleBoxDescription, simpleBox );
+	writer.append( translateBoxTitle, translateBox );
+	writer.append( translateBoxDescription, translateBox );
 
 	// There must be at least one paragraph for the description to be editable.
 	// See https://github.com/ckeditor/ckeditor5/issues/1464.
-	writer.appendElement( 'paragraph', simpleBoxDescription );
+	writer.appendElement( 'paragraph', translateBoxDescription );
 
-	return simpleBox;
+	return translateBox;
 }
